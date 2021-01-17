@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1024" prefWidth="1280" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shop.controllers.HomeController">
+   <children>
+      <Button layoutX="590.0" layoutY="306.0" mnemonicParsing="false" onAction="#handleKriskaninButton" prefHeight="45.0" prefWidth="103.0" text="ผู้จัดทำ" />
+      <Button layoutX="482.0" layoutY="575.0" mnemonicParsing="false" onAction="#handleJohnMemberCardButton" prefHeight="55.0" prefWidth="319.0" text="บัตรสมาชิกของ John">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="482.0" layoutY="659.0" mnemonicParsing="false" onAction="#handleAnnaMemberCardButton" prefHeight="55.0" prefWidth="319.0" text="บัตรสมาชิกของ Anna">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="482.0" layoutY="738.0" mnemonicParsing="false" onAction="#handleHarryMemberCardButton" prefHeight="55.0" prefWidth="319.0" text="บัตรสมาชิกของ Harry">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="421.0" layoutY="117.0" prefHeight="123.0" prefWidth="543.0" text="Welcome to Shop Application" textAlignment="CENTER">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

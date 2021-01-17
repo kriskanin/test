@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1024" prefWidth="1280" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shop.controllers.MemberCardDetailController">
+   <children>
+      <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="207.0" layoutY="197.0" prefHeight="69.0" prefWidth="229.0" text="nameLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="192.0" prefHeight="79.0" prefWidth="149.0" text="ชื่อผู้ถือบัตร">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="purchaseTextField" layoutX="297.0" layoutY="478.0" prefHeight="59.0" prefWidth="536.0" />
+      <Label layoutX="744.0" layoutY="184.0" prefHeight="95.0" prefWidth="149.0" text="หมายเลขโทรศัพท์">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneLabel" layoutX="911.0" layoutY="210.0" prefHeight="43.0" prefWidth="149.0" text="phoneLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="445.0" layoutY="60.0" prefHeight="95.0" prefWidth="335.0" text="Member Card Detail" textFill="#022ca8" textOverrun="CLIP">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="248.0" prefHeight="79.0" prefWidth="214.0" text="ยอดซื้อสะสม (บาท)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="cumulativePurchaseLabel" layoutX="113.0" layoutY="298.0" prefHeight="79.0" prefWidth="440.0" text="cumulativePurchaseLabel">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="pointLabel" layoutX="744.0" layoutY="313.0" prefHeight="43.0" prefWidth="342.0" text="pointLabel">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="744.0" layoutY="253.0" prefHeight="69.0" prefWidth="241.0" text="คะแนนสะสม (แต้ม)" />
+      <Label layoutX="297.0" layoutY="429.0" prefHeight="59.0" prefWidth="253.0" text="เพิ่มยอดซื้อสินค้า">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="589.0" prefHeight="86.0" prefWidth="269.0" text="ใช้คะแนนสะสม">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="853.0" layoutY="475.0" prefHeight="49.0" prefWidth="124.0" text="บาท">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="853.0" layoutY="660.0" prefHeight="59.0" prefWidth="159.0" text="แต้ม">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pointTextField" layoutX="297.0" layoutY="660.0" prefHeight="59.0" prefWidth="536.0" />
+      <Button layoutX="297.0" layoutY="544.0" mnemonicParsing="false" onAction="#handleAddPurchaseButton" prefHeight="31.0" prefWidth="91.0" text="เพิ่มยอดซื้อ" />
+      <Button layoutX="297.0" layoutY="729.0" mnemonicParsing="false" onAction="#handleUsePointButton" prefHeight="31.0" prefWidth="91.0" text="ใช้คะแนน" />
+      <Button layoutX="961.0" layoutY="890.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="43.0" prefWidth="117.0" text="Back" />
+   </children>
+</AnchorPane>
