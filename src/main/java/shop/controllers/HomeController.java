@@ -62,6 +62,18 @@ public class HomeController {
         }
 
     }
+    @FXML
+    public void handleMember_Card_ListButton(ActionEvent actionEvent) {
+        try {
+            // เปลี่ยนการแสดงผลไปที่ route ที่ชื่อ member_card_detail
+            // พร้อมส่ง reference instance john ไปด้วย
+            FXRouter.goTo("member_card_list");
+        } catch (IOException e) {
+            System.err.println("ไปที่หน้า member_card_list ไม่ได้");
+            System.err.println("ให้ตรวจสอบการกำหนด route");
+        }
+
+    }
 
 
 }

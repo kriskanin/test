@@ -46,5 +46,10 @@ public class MemberCard {
     public MemberCard(String name, String phone) {
         this(name, phone, 0);
     }
+    @Override
+    public String toString() {
+        return name + " [" + stamp + " point]";
+    }
+
 
 }

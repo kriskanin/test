@@ -19,6 +19,7 @@ public class Main extends Application {
         FXRouter.when("home", "home.fxml");
         FXRouter.when("member_card_detail", "member_card_detail.fxml");
         FXRouter.when("Kriskanin", "kriskanin.fxml");
+        FXRouter.when("member_card_list", "member_card_list.fxml");
     }
 
 

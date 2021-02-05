@@ -28,5 +28,10 @@
             <Font size="35.0" />
          </font>
       </Label>
+      <Button layoutX="482.0" layoutY="807.0" mnemonicParsing="false" onAction="#handleMember_Card_ListButton" prefHeight="55.0" prefWidth="319.0" text="Member Card List">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

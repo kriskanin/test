@@ -1,8 +1,12 @@
 com\github\saacsos\FXRouter$1.class
 com\github\saacsos\FXRouter$RouteScene.class
 shop\models\MemberCard.class
+shop\controllers\MemberCardListController.class
+shop\services\MemberCardListHardCodeDataSource.class
+shop\models\MemberCardList.class
 com\github\saacsos\FXRouter.class
 shop\controllers\MemberCardDetailController.class
 shop\controllers\HomeController.class
+shop\controllers\MemberCardListController$1.class
 shop\controllers\CreatorController.class
 shop\Main.class
